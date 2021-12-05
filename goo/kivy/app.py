@@ -29,9 +29,19 @@ Builder.load_string("""
 
 <LevelScreen>:
     canvas_widget: canvas_widget
-    CanvasWidget:
-        id: canvas_widget
-        do_rotation: 0
+    button_widget: button_widget
+    FloatLayout:
+        CanvasWidget:
+            id: canvas_widget
+            button_widget: button_widget
+            do_rotation: 0
+        Button:
+            id: button_widget
+            size_hint:(.5, .25)
+            pos:(20, 20)
+            on_release: print("acc")
+
+
 """)
 
 

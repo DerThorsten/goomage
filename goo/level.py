@@ -16,6 +16,10 @@ class LevelBase(object):
     def kill_sensors(self):
         raise NotImplementedError
 
+    def draw(self):
+        raise NotImplementedError
+
+
 
 class Level1(LevelBase):
     

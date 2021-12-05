@@ -10,9 +10,11 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scatter import Scatter, ScatterPlane
 from kivy.clock import Clock
 from kivy.config import Config
-
+from kivy.properties import *
 
 class CanvasWidget(ScatterPlane):
+    button_widget = ObjectProperty(None)
+
     def __init__(self, **kwargs):
 
         super(CanvasWidget, self).__init__(**kwargs)
@@ -62,26 +64,29 @@ class CanvasWidget(ScatterPlane):
 
 
     def on_touch_down(self, touch):
-        # Override Scatter's `on_touch_down` behavior for mouse scroll
-        if touch.is_mouse_scrolling:
-            self.handle_scroll(touch)
-        else:
-            world_pos = self.to_local(*touch.pos)
-            handled_event =self.meta_world.on_mouse_down(world_pos)
-            if not handled_event:
-                super(CanvasWidget, self).on_touch_down(touch)
+        if not self.button_widget.collide_point(*touch.pos):
+            # Override Scatter's `on_touch_down` behavior for mouse scroll
+            if touch.is_mouse_scrolling:
+                self.handle_scroll(touch)
+            else:
+                world_pos = self.to_local(*touch.pos)
+                handled_event =self.meta_world.on_mouse_down(world_pos)
+                if not handled_event:
+                    super(CanvasWidget, self).on_touch_down(touch)
 
     def on_touch_up(self, touch):
-        if touch.is_mouse_scrolling:
-            pass
-        else:
-            world_pos = self.to_local(*touch.pos)
-            handled_event =self.meta_world.on_mouse_up(world_pos)
-            if not handled_event:
-                super(CanvasWidget, self).on_touch_up(touch)
+        if not self.button_widget.collide_point(*touch.pos):
+            if touch.is_mouse_scrolling:
+                pass
+            else:
+                world_pos = self.to_local(*touch.pos)
+                handled_event =self.meta_world.on_mouse_up(world_pos)
+                if not handled_event:
+                    super(CanvasWidget, self).on_touch_up(touch)
 
     def on_touch_move(self, touch):
-        world_pos = self.to_local(*touch.pos)
-        handled_event =self.meta_world.on_mouse_move(world_pos)
-        if not handled_event:
-            super(CanvasWidget, self).on_touch_move(touch)
+        if not self.button_widget.collide_point(*touch.pos):
+            world_pos = self.to_local(*touch.pos)
+            handled_event =self.meta_world.on_mouse_move(world_pos)
+            if not handled_event:
+                super(CanvasWidget, self).on_touch_move(touch)
