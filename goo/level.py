@@ -1,11 +1,16 @@
 import random
 import numpy
 import b2d 
+import collections
 
 from .items import Destroyer, Goal
 from .goos  import *
 
 class LevelBase(object):
+
+    def __init__(self):
+
+        self.goo_contigent = collections.OrderedDict()
 
     @property
     def end_sensor(self):
@@ -18,6 +23,10 @@ class LevelBase(object):
 
     def draw(self):
         raise NotImplementedError
+
+    def n_goos(self, goo_cls):
+        assert goo_cls in self.goo_contigent
+        return self.goo_contigent[goo_cls]
 
 
 
@@ -36,6 +45,12 @@ class Level1(LevelBase):
         super(Level1, self).__init__()
         self.root = root
         self.world = self.root.world
+
+        self.goo_contigent[PlainGoo] = 30
+        self.goo_contigent[AnchorGoo] = 30
+        self.goo_contigent[BaloonGoo] = 30
+        self.goo_contigent[MagicGoo] = 30
+        self.selected_goo = PlainGoo
 
         kill_sensors_height=0.5
         gap_size = 30
@@ -66,7 +81,7 @@ class Level1(LevelBase):
             position=(usable_size+gap_size/2, kill_sensors_height/2),
             fixtures=b2d.fixture_def(
                 shape=shape,
-                is_sensor=False
+                is_sensor=True
             ),
         )
         self._kill_sensor.user_data = Destroyer(body=self._kill_sensor)
@@ -78,7 +93,7 @@ class Level1(LevelBase):
             position=(1.5*usable_size+gap_size, h+end_zone_height/2),
             fixtures=b2d.fixture_def(
                 shape=shape,
-                is_sensor=False
+                is_sensor=True
             ),
         )
         self._end_sensor.user_data = Goal(body=self._end_sensor)
@@ -86,9 +101,12 @@ class Level1(LevelBase):
         # place goos
         a = AnchorGoo.create(self.root, position=(usable_size/3,h + AnchorGoo.radius))
         b = AnchorGoo.create(self.root, position=(usable_size*2/3,h + AnchorGoo.radius))
-        c = PlainGoo.create(self.root, position=(usable_size*1/2,h + PlainGoo.radius + 3))
+        c = AnchorGoo.create(self.root, position=(usable_size*1/2,h + AnchorGoo.radius + 3))
 
-        j = connect_goos(self.root, a,b)
-        j = connect_goos(self.root, a,c)
-        j = connect_goos(self.root, b,c)
+        # d = BaloonGoo.create(self.root, position=(usable_size*1/2,h + AnchorGoo.radius + 8))
 
+        j = AnchorGoo.connect_goos(self.root, a,b)
+        j = AnchorGoo.connect_goos(self.root, a,c)
+        j = AnchorGoo.connect_goos(self.root, b,c)
+
+        # j = BaloonGoo.connect_goos(self.root, c,d)

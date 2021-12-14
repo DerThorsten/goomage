@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="545.75808"
+       y="320.842"
+       width="478.59343"
+       height="309.10722"
+       id="rect24130" />
+    <rect
+       x="580.88777"
+       y="480.32262"
+       width="709.40256"
+       height="51.261102"
+       id="rect22266" />
+    <linearGradient
+       id="linearGradient3404">
+      <stop
+         style="stop-color:#a7a7a7;stop-opacity:1"
+         offset="0"
+         id="stop3400" />
+      <stop
+         style="stop-color:#323232;stop-opacity:1"
+         offset="1"
+         id="stop3402" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12642">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop12640" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11277">
+      <stop
+         style="stop-color:#6d84a9;stop-opacity:1"
+         offset="0"
+         id="stop11273" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop11275" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3793">
+      <stop
+         style="stop-color:#1a1a11;stop-opacity:1;"
+         offset="0"
+         id="stop3789" />
+      <stop
+         style="stop-color:#1a1a11;stop-opacity:0;"
+         offset="1"
+         id="stop3791" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3767">
+      <stop
+         style="stop-color:#1a1a11;stop-opacity:1;"
+         offset="0"
+         id="stop3765" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1160">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop1164" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0;"
+         offset="1"
+         id="stop1166" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient11277"
+       id="radialGradient11279"
+       cx="132.1655"
+       cy="131.89056"
+       fx="132.1655"
+       fy="131.89056"
+       r="131.4239"
+       gradientTransform="matrix(0.99999853,-0.00171721,0.00167029,0.97267768,-191.68021,175.62131)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient12642"
+       id="linearGradient12644"
+       x1="43.561024"
+       y1="67.561295"
+       x2="114.54213"
+       y2="67.561295"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.130615,0,0,1.0991014,-7.3554079,9.671343)" />
+    <linearGradient
+       xlink:href="#linearGradient12642"
+       id="linearGradient15472"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.130615,0,0,1.0991014,-260.03963,-7.1632739)"
+       x1="43.561024"
+       y1="67.561295"
+       x2="114.54213"
+       y2="67.561295" />
+    <filter
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37507">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37501" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37503" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37505" />
+    </filter>
+    <filter
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37515">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37509" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37511" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37513" />
+    </filter>
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37523">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37517" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37519" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37521" />
+    </filter>
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37531">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37525" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37527" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37529" />
+    </filter>
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37539">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37533" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37535" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37537" />
+    </filter>
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37547">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37541" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37543" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37545" />
+    </filter>
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37555">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37549" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37551" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37553" />
+    </filter>
+    <filter
+       height="1.0155848"
+       y="-0.0077924191"
+       width="1.0157527"
+       x="-0.0078763721"
+       style="color-interpolation-filters:sRGB;"
+       id="filter37563">
+      <feTurbulence
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence37557" />
+      <feDisplacementMap
+         scale="25"
+         result="result5"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap37559" />
+      <feComposite
+         in="SourceGraphic"
+         operator="atop"
+         in2="result5"
+         id="feComposite37561" />
+    </filter>
+  </defs>
+  <ellipse
+     style="fill:#2b99bf;fill-opacity:1;stroke:#000000;stroke-width:4.1069;filter:url(#filter37563)"
+     id="path11825"
+     cx="132.16801"
+     cy="132.44797"
+     rx="130.35507"
+     ry="131.75948" />
+  <ellipse
+     style="fill:none;stroke-width:0.264583;filter:url(#filter37555)"
+     id="path31"
+     cx="95.425026"
+     cy="107.38747"
+     rx="101.70204"
+     ry="71.163956" />
+  <ellipse
+     style="fill:#ffffff;stroke-width:0.00833717;filter:url(#filter37547)"
+     id="path59-3-6-7-5-9-1-2"
+     cx="-94.045639"
+     cy="56.539833"
+     rx="4.1459651"
+     ry="4.3257337"
+     transform="scale(-1,1)" />
+  <g
+     id="g15263"
+     transform="translate(14.461754,-19.78296)"
+     style="filter:url(#filter37539)">
+    <ellipse
+       style="fill:url(#linearGradient12644);fill-opacity:1;stroke-width:0.0817163"
+       id="path59-3"
+       cx="82.021492"
+       cy="83.928055"
+       rx="40.126152"
+       ry="42.937531" />
+    <g
+       id="g15090"
+       transform="matrix(1.7676326,0,0,1.6309338,-72.36935,-31.050636)">
+      <ellipse
+         style="fill:#000000;stroke-width:0.0282491"
+         id="path59-3-6-7-5"
+         cx="-92.490395"
+         cy="75.053207"
+         rx="14.047914"
+         ry="14.657029"
+         transform="scale(-1,1)" />
+      <ellipse
+         style="fill:#ffffff;stroke-width:0.00984907"
+         id="path59-3-6-7-5-9-1-2-9"
+         cx="-116.85265"
+         cy="-36.849697"
+         rx="5.7860017"
+         ry="4.3257337"
+         transform="matrix(-0.59245171,-0.80560596,-0.80560596,0.59245171,0,0)" />
+    </g>
+  </g>
+  <ellipse
+     style="fill:url(#linearGradient15472);fill-opacity:1;stroke-width:0.0817163;filter:url(#filter37531)"
+     id="path59-3-7"
+     cx="-170.66273"
+     cy="67.093437"
+     rx="40.126152"
+     ry="42.937531"
+     transform="scale(-1,1)" />
+  <g
+     id="g15486"
+     transform="matrix(-1,0,0,1,335.77214,-14.582911)"
+     style="filter:url(#filter37523)">
+    <g
+       id="g15090-5"
+       transform="matrix(-1.7676326,0,0,1.6309338,336.14496,-32.415666)">
+      <ellipse
+         style="fill:#000000;stroke-width:0.0282491"
+         id="path59-3-6-7-5-9"
+         cx="-92.490395"
+         cy="75.053207"
+         rx="14.047914"
+         ry="14.657029"
+         transform="scale(-1,1)" />
+      <ellipse
+         style="fill:#ffffff;stroke-width:0.00984907"
+         id="path59-3-6-7-5-9-1-2-9-2"
+         cx="-116.85265"
+         cy="-36.849697"
+         rx="5.7860017"
+         ry="4.3257337"
+         transform="matrix(-0.59245171,-0.80560596,-0.80560596,0.59245171,0,0)" />
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text22264"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect22266);filter:url(#filter37515)" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text24128"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect24130);filter:url(#filter37507)" />
+</svg>

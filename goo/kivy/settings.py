@@ -26,6 +26,20 @@ json_settings = '''
         "desc": "fps",
         "section": "Goo",
         "key": "fps"
+    },
+    {
+        "type": "bool",
+        "title": "sound",
+        "desc": "sound",
+        "section": "Goo",
+        "key": "sound"
+    },
+    {
+        "type": "bool",
+        "title": "draw_debug_data",
+        "desc": "draw_debug_data",
+        "section": "Goo",
+        "key": "draw_debug_data"
     }
 ]
 '''

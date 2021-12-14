@@ -7,33 +7,23 @@
    viewBox="0 0 264.58333 264.58333"
    version="1.1"
    id="svg5"
-   sodipodi:docname="anchor.svg"
-   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview35"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.59679812"
-     inkscape:cx="702.91776"
-     inkscape:cy="416.38871"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
+    <rect
+       x="545.75808"
+       y="320.842"
+       width="478.59343"
+       height="309.10722"
+       id="rect24130" />
+    <rect
+       x="580.88777"
+       y="480.32262"
+       width="709.40256"
+       height="51.261102"
+       id="rect22266" />
     <linearGradient
        id="linearGradient3404">
       <stop
@@ -115,32 +105,127 @@
        xlink:href="#linearGradient12642"
        id="linearGradient15472"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.130615,0,0,1.0991014,-270.30248,8.9176621)"
+       gradientTransform="matrix(1.130615,0,0,1.0991014,-260.03963,-7.1632739)"
        x1="43.561024"
        y1="67.561295"
        x2="114.54213"
        y2="67.561295" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3404"
-       id="radialGradient3376"
-       cx="132.34219"
-       cy="132.44049"
-       fx="132.34219"
-       fy="132.44049"
-       r="131.07498"
-       gradientTransform="matrix(1,0,0,1.0156,0,-2.0660712)"
-       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter33454"
+       x="-0.08612419"
+       y="-0.085206206"
+       width="1.1799197"
+       height="1.178002">
+      <feGaussianBlur
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5"
+         id="feGaussianBlur33422" />
+      <feTurbulence
+         baseFrequency="0.042"
+         seed="488"
+         numOctaves="7"
+         result="result1"
+         id="feTurbulence33424" />
+      <feDisplacementMap
+         result="result5"
+         xChannelSelector="R"
+         scale="0"
+         in2="result1"
+         in="result1"
+         yChannelSelector="G"
+         id="feDisplacementMap33426" />
+      <feComposite
+         result="result2"
+         operator="in"
+         in2="result5"
+         in="result0"
+         id="feComposite33428" />
+      <feSpecularLighting
+         lighting-color="rgb(255,230,136)"
+         surfaceScale="2"
+         result="result4"
+         specularConstant="2"
+         specularExponent="65"
+         in="result2"
+         id="feSpecularLighting33432">
+        <feDistantLight
+           elevation="62"
+           azimuth="225"
+           id="feDistantLight33430" />
+      </feSpecularLighting>
+      <feComposite
+         k1="2.5"
+         k3="1"
+         k2="-0.5"
+         in2="result2"
+         in="result4"
+         operator="arithmetic"
+         result="result91"
+         id="feComposite33434" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="multiply"
+         in2="result91"
+         id="feBlend33436" />
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -2 -0.5 0 5 -2"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix33438" />
+      <feGaussianBlur
+         stdDeviation="8"
+         in="fbSourceGraphicAlpha"
+         result="result0"
+         id="feGaussianBlur33440" />
+      <feOffset
+         dx="2"
+         dy="2"
+         in="result0"
+         result="result3"
+         id="feOffset33442" />
+      <feSpecularLighting
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="4"
+         specularConstant="0.8"
+         specularExponent="15"
+         id="feSpecularLighting33446">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight33444" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphicAlpha"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite33448" />
+      <feComposite
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="2"
+         in2="result2"
+         id="feComposite33450" />
+      <feBlend
+         mode="darken"
+         in2="result4"
+         id="feBlend33452" />
+    </filter>
   </defs>
-  <rect
-     style="fill:url(#radialGradient3376);fill-opacity:1.0;stroke-width:0.269201"
-     id="rect73"
-     width="262.14996"
-     height="266.2395"
-     x="1.2672088"
-     y="-0.67925894"
-     rx="41.412716"
-     ry="49.865799" />
+  <ellipse
+     style="fill:#d80884;fill-opacity:1;stroke:#000000;stroke-width:4.1069;filter:url(#filter33454)"
+     id="path11825"
+     cx="132.16801"
+     cy="132.44797"
+     rx="130.35507"
+     ry="131.75948" />
   <ellipse
      style="fill:none;stroke-width:0.264583"
      id="path31"
@@ -149,23 +234,16 @@
      rx="101.70204"
      ry="71.163956" />
   <ellipse
-     style="fill:none;stroke-width:0.264583"
-     id="path33"
-     cx="272.1149"
-     cy="64.918396"
-     rx="14.127398"
-     ry="2.6012018" />
-  <ellipse
      style="fill:#ffffff;stroke-width:0.00833717"
      id="path59-3-6-7-5-9-1-2"
-     cx="-97.151657"
-     cy="71.818382"
+     cx="-94.045639"
+     cy="56.539833"
      rx="4.1459651"
      ry="4.3257337"
      transform="scale(-1,1)" />
   <g
      id="g15263"
-     transform="translate(-0.82853947,0.61134912)">
+     transform="translate(14.461754,-19.78296)">
     <ellipse
        style="fill:url(#linearGradient12644);fill-opacity:1;stroke-width:0.0817163"
        id="path59-3"
@@ -197,14 +275,14 @@
   <ellipse
      style="fill:url(#linearGradient15472);fill-opacity:1;stroke-width:0.0817163"
      id="path59-3-7"
-     cx="-180.92558"
-     cy="83.17437"
+     cx="-170.66273"
+     cy="67.093437"
      rx="40.126152"
      ry="42.937531"
      transform="scale(-1,1)" />
   <g
      id="g15486"
-     transform="matrix(-1,0,0,1,344.48331,0.61134912)">
+     transform="matrix(-1,0,0,1,335.77214,-14.582911)">
     <g
        id="g15090-5"
        transform="matrix(-1.7676326,0,0,1.6309338,336.14496,-32.415666)">
@@ -226,24 +304,14 @@
          transform="matrix(-0.59245171,-0.80560596,-0.80560596,0.59245171,0,0)" />
     </g>
   </g>
-  <rect
-     style="fill:#000000;fill-opacity:1;stroke-width:0.216614"
-     id="rect3508"
-     width="112.39443"
-     height="21.460756"
-     x="17.816967"
-     y="-14.832524"
-     rx="23.613047"
-     ry="21.460756"
-     transform="matrix(0.87175085,0.48994944,-0.63960539,0.76870342,0,0)" />
-  <rect
-     style="fill:#000000;fill-opacity:1;stroke-width:0.221442"
-     id="rect3508-3"
-     width="113.5261"
-     height="22.20438"
-     x="-185.9178"
-     y="117.27852"
-     rx="23.8508"
-     ry="22.20438"
-     transform="matrix(-0.8569329,0.51542799,0.6137957,0.78946491,0,0)" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text22264"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect22266)" />
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text24128"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect24130)" />
 </svg>
